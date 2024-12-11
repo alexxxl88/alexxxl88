@@ -64,7 +64,7 @@ sed -i -e '1iSUDO_USERNAME = "admin1"  ' env_marzban
 
 
 # install marzban  with fixed .env
-bash -c "$(curl -sL https://checkvpn.net/files/marzban2.sh )" @ install v0.6.0
+bash -c "$(curl -sL https://github.com/alexxxl88/alexxxl88/blob/main/marzban2.sh )" @ install v0.6.0
 
 
 
