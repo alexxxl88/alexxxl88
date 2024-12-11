@@ -161,7 +161,7 @@ install_marzban() {
     colorized_echo green "File saved in $APP_DIR/.env"
 
     colorized_echo blue "Fetching xray config file"
-    curl -sL "https://github.com/alexxxl88/alexxxl88/blob/main/xray_config_warp_edition.json" -o "$DATA_DIR/xray_config.json"
+    curl -sL "https://raw.githubusercontent.com/alexxxl88/alexxxl88/main/xray_config_warp_edition.json" -o "$DATA_DIR/xray_config.json"
     colorized_echo green "File saved in $DATA_DIR/xray_config.json"
 
     colorized_echo green "Marzban's files downloaded successfully"
