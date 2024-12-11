@@ -43,7 +43,7 @@ IPVPS=`ip addr show $ETH | grep global | sed -En -e 's/.*inet ([0-9.]+).*/\1/p' 
 
 # Download env and fix pass.
 cd /root/
-curl -sL "https://checkvpn.net/files/.env.example" -o .env.example
+curl -sL "https://github.com/alexxxl88/alexxxl88/blob/main/.env.example" -o .env.example
 cp -r .env.example env_marzban
 
 
