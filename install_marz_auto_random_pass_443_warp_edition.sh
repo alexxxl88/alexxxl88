@@ -43,7 +43,7 @@ IPVPS=`ip addr show $ETH | grep global | sed -En -e 's/.*inet ([0-9.]+).*/\1/p' 
 
 # Download env and fix pass.
 cd /root/
-curl -sL "https://github.com/alexxxl88/alexxxl88/blob/main/.env.example" -o .env.example
+curl -sL "https://raw.githubusercontent.com/alexxxl88/alexxxl88/main/.env.example" -o .env.example
 cp -r .env.example env_marzban
 
 
@@ -64,7 +64,7 @@ sed -i -e '1iSUDO_USERNAME = "admin1"  ' env_marzban
 
 
 # install marzban  with fixed .env
-bash -c "$(curl -sL https://github.com/alexxxl88/alexxxl88/blob/main/marzban2.sh )" @ install v0.6.0
+bash -c "$(curl -sL https://raw.githubusercontent.com/alexxxl88/alexxxl88/main/marzban2.sh )" @ install v0.6.0
 
 
 
